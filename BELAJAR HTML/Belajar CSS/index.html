@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>My Website</title>
+</head>
+
+<body>
+
+    <header>
+        <table>
+            <tr>
+                <td>
+                    <img width="70" height="70" src="./gambar/LOGO-OP.png" alt="LOGO">
+                </td>
+                <td>
+                    <h1>My Website</h1>
+                    <p>Just Another Creative Site</p>
+                </td>
+            </tr>
+        </table>
+    </header>
+
+    <hr>
+
+    <section>
+        <h3>Search</h3>
+
+        <form>
+            <input type="search" placeholder="Cari sesuatu di sini...">
+
+            <button type="submit">
+                Cari
+            </button>
+        </form>
+    </section>
+
+    <hr>
+
+    <nav>
+        <a href="#about">About</a>
+        |
+        <a href="#portfolio">Portfolio</a>
+        |
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <hr>
+
+    <main>
+        <section>
+            <table>
+                <tr>
+                    <td>
+                        <img width="200" src="https://i.pinimg.com/1200x/d1/28/07/d128075c58738f2ade425a5a8edbed1d.jpg"
+                            alt="GAMBAR">
+
+                    </td>
+                    <td>
+                        <h2>Welcome to My Website</h2>
+
+                        <p>
+                            Selamat datang di website portfolio saya.
+                            Website ini berisi informasi tentang saya,
+                            project yang pernah dibuat, dan halaman kontak.
+                        </p>
+
+                        <a href="#portfolio">
+                            Lihat Portfolio
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+        <hr>
+
+        <section>
+            <table>
+                <tr>
+                    <td>
+                        <img width="200" src="https://i.pinimg.com/1200x/d1/28/07/d128075c58738f2ade425a5a8edbed1d.jpg"
+                            alt="GAMBAR">
+
+                    </td>
+                    <td>
+                        <h2>About</h2>
+
+                        <h3>Tentang Saya</h3>
+
+                        <p>
+                            Halo, nama saya kevin ekarevano.
+                            Saya sedang belajar Web Design dan HTML5.
+                        </p>
+
+                        <p>
+                            Website ini dibuat sebagai latihan untuk memahami
+                            struktur halaman HTML5 seperti header, navigasi,
+                            main, section, article, form, dan footer.
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+        <hr>
+
+        <section>
+
+            <h2>Portfolio</h2>
+
+            <table>
+                <tr>
+                    <td>
+                        <article>
+
+                            <img width="200"
+                                src="https://i.pinimg.com/1200x/d1/28/07/d128075c58738f2ade425a5a8edbed1d.jpg"
+                                alt="GAMBAR">
+
+
+                            <h3>Project 1</h3>
+
+                            <p>
+                                Website Profil Pribadi
+                            </p>
+
+                            <p>
+                                Project ini merupakan website profil sederhana
+                                yang dibuat menggunakan HTML5.
+                            </p>
+
+                            <a href="#">
+                                Lihat Detail
+                            </a>
+
+                        </article>
+                    </td>
+                    <td>
+                        <article>
+
+                            <img width="200"
+                                src="https://i.pinimg.com/1200x/d1/28/07/d128075c58738f2ade425a5a8edbed1d.jpg"
+                                alt="GAMBAR">
+
+
+                            <h3>Project 2</h3>
+
+                            <p>
+                                Website Toko Online
+                            </p>
+
+                            <p>
+                                Project ini merupakan website sederhana
+                                untuk menampilkan produk dan informasi usaha.
+                            </p>
+
+                            <a href="#">
+                                Lihat Detail
+                            </a>
+
+                        </article>
+                    </td>
+                </tr>
+
+            </table>
+
+
+
+            <br>
+
+
+
+        </section>
+
+        <hr>
+
+
+
+
+        <section id="contact">
+
+            <h2>Contact/Form</h2>
+
+            <form action="#" method="post">
+
+                <table cellpadding="5">
+
+                    <tr>
+                        <td width="100">
+                            <label for="nama">Nama</label>
+                        </td>
+
+                        <td>
+                            :
+                        </td>
+
+                        <td>
+                            <input type="text" id="nama" name="nama" size="30" required>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            <label for="email">Email</label>
+                        </td>
+
+                        <td>
+                            :
+                        </td>
+
+                        <td>
+                            <input type="email" id="email" name="email" size="30" required>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td valign="top">
+                            <label for="pesan">Pesan</label>
+                        </td>
+
+                        <td valign="top">
+                            :
+                        </td>
+
+                        <td>
+                            <textarea id="pesan" name="pesan" rows="4" cols="30" required></textarea>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            <label for="tanggal">Tanggal</label>
+                        </td>
+
+                        <td>
+                            :
+                        </td>
+
+                        <td>
+                            <input type="date" id="tanggal" name="tanggal">
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            <label for="jam">Jam</label>
+                        </td>
+
+                        <td>
+                            :
+                        </td>
+
+                        <td>
+                            <input type="time" id="jam" name="jam">
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            <label for="file">Upload File</label>
+                        </td>
+
+                        <td>
+                            :
+                        </td>
+
+                        <td>
+                            <input type="file" id="file" name="file" accept=".pdf,.jpg,.jpeg,.png">
+                        </td>
+                    </tr>
+
+
+                    <!-- TOMBOL -->
+                    <tr>
+                        <td></td>
+                        <td></td>
+
+                        <td align="center">
+
+                            <br>
+
+                            <button type="submit">
+                                Kirim / Submit
+                            </button>
+
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </section>
+    </main>
+
+
+    <hr>
+
+
+    <footer>
+
+        <p>
+            &copy; 2026 My Website. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+</body>
+
+</html>
